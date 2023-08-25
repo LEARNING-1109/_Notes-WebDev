@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"hide-files.files": [
+			"_Notes-WebDev.code-workspace",
+			".vscode"
+		]
+	}
+}
