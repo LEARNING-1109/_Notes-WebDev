@@ -1,27 +1,30 @@
-# Tailwind CSS Setting Up 
-[🔗 Tailwind CSS using PostCSS](https://tailwindcss.com/docs/installation/using-postcss)
+# Tailwind CSS Installation
 
-<a href="https://tailwindcss.com/docs/installation/using-postcss" target="_blank">Tailwind CSS using PostCSS</a>
+<a href="https://tailwindcss.com/docs/installation/using-postcss" target="_blank">🔗 Tailwind CSS using PostCSS</a>
 
 ## 🪜 Step 1:
 
-`npm init -y`
-
+```css
+npm init -y
+```
 
 ## 🪜 Step 2:
-
-`npm install -D tailwindcss postcss autoprefixer`
-
-`npm vite`
-
+```css
+npm install -D tailwindcss postcss autoprefixer
+npm vite
+```
 or
 
-`npm install -D tailwindcss postcss autoprefixer vite`
+```css
+npm install -D tailwindcss postcss autoprefixer vite
+```
 
 ---
 ## 🪜 Step 3:
 
-`npx tailwindcss init -p`
+```css
+npx tailwindcss init -p
+```
 
 ---
 ## 🪜 Step 4: Create a CSS file `main.css` or `style.css`
@@ -38,11 +41,21 @@ or
 
 - replace `content[]` with `content["*"]`
 
+```css
+"*"
+```
+
 ## 🪜 Step 6: In `package.json` file
 
 - Add `"start": "vite"` to your scripts
 
+```css
+"start": "vite"
+```
+
 ## 🪜 Step 7: 
 Run npm run start command to start a dev serve
 
-`npm run start`
+```css
+npm run start
+```
