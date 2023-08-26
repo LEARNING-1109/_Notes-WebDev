@@ -1,7 +1,7 @@
 # Tailwind CSS Setting Up 
 [🔗 Tailwind CSS using PostCSS](https://tailwindcss.com/docs/installation/using-postcss)
 
-<a href="https://tailwindcss.com/docs/installation/using-postcss" target="_blank" >  Tailwind CSS using PostCSS </a>
+<a href="https://tailwindcss.com/docs/installation/using-postcss" target="_blank">Tailwind CSS using PostCSS</a>
 
 ## 🪜 Step 1:
 
