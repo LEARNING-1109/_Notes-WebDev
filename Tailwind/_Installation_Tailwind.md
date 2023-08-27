@@ -63,3 +63,17 @@ Run npm run start command to start a dev serve
 ```css
 npm run start
 ```
+
+# VS Code Extension - for tailwindcss
+
+1. Tailwind CSS IntelliSense
+   - It `enhances` the Tailwind development experience by providing features such as `autocomplete, syntax highlighting, and linting.`
+
+2. PostCSS Language Support
+   - Resolve Error: `⚠️ unknown rule @apply` in css File
+
+3. [Tailwind CSS Debug Screens](https://github.com/jorenvanhee/tailwindcss-debug-screens)
+   - A Tailwind CSS component that shows the currently active screen (responsive breakpoint).
+
+
+
