@@ -1,3 +1,9 @@
+# 0. Shortcut Installation
+
+- `Extract Here` the `MY_TEMPLATE` zip file
+- To Execute the template, run the command
+  - `npm run start` in the terminal of VS Code.
+
 # 1. Tailwind CSS Installation
 
 <a href="https://tailwindcss.com/docs/installation/using-postcss" target="_blank">🔗 Tailwind CSS using PostCSS</a>
