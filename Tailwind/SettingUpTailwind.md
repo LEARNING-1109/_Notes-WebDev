@@ -29,7 +29,11 @@ npx tailwindcss init -p
 ---
 ## 🪜 Step 4: Create a CSS file `main.css` or `style.css`
   - Add it to your html file 
-  - Paste the below content ⬇️ in your css file
+```html
+    <link rel="stylesheet" href="main.css">
+```
+
+  - Paste the below content ⬇️ in your `main.css` file
 ```css
 @tailwind base;
 @tailwind components;
