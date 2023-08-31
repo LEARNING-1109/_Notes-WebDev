@@ -1,4 +1,4 @@
-# Learn Vite Server & Deployment for `Tailwindcss` :
+# (a.) Learn Vite Server & Deployment for `Tailwindcss` :
 
 ## 🪜 Step 1:
 
@@ -29,13 +29,14 @@ npm i vite
 ```css
 npm run start
 ```
+`or`
 ```css
 npm run start -- --host
 ```
 
 ---
 
-# Deployment of vite + Tailwind Project :
+# (b.) Deployment of vite + Tailwind Project :
 
 ### `Note:` Folder arrangement must be according to below rules : ⬇️
 
