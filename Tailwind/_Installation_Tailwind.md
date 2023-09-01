@@ -70,6 +70,14 @@ Run npm run start command to start a dev serve
 npm run start
 ```
 
+`or`
+
+```css
+npm run start -- --host
+```
+
+  - For vite server to get host link of network.
+
 # 2. VS Code Extension - for tailwindcss
 
 1. Tailwind CSS IntelliSense
