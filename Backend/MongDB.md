@@ -15,7 +15,7 @@ import mongoose from 'mongoose';
 ## 2. Connect to Databse
 ```js
     // ❌ mongoose.connect("mongodb://localhost:27017", {
-    mongoose.connect("mongodb://localhost:27017", {
+    mongoose.connect("mongodb://127.0.0.1:27017", {
     dbName: "backend",
 })
 ```
@@ -26,6 +26,8 @@ import mongoose from 'mongoose';
 - it will show up the link through which you can connect to your mongoDB database.
 
 # 3. Add data to backend
+
+## Creating Message Schema
 ```js
 const msgSchema = new mongoose.Schema({
     name: String,
