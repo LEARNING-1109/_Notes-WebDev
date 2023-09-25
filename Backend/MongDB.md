@@ -59,4 +59,20 @@ app.get('/add', async (req, res) => {
 })
 ```
 
-## 
+## Add data using post method
+
+```js
+app.post('/contact', (req, res) => {
+    // msg.create({ name: 'youtube', email: 'subscribe@gmail.com' })    // 1
+    // msg.create({ name: req.body.name, email: req.body.email })       // 2
+
+    // destructuring data from req.body object
+    const { name, email } = req.body;
+    // msg.create({ name: name, email: email });
+    msg.create({ name, email });    // if key value pairs have same name then write only once
+
+    console.log('Message saved to DB successfully');
+    res.redirect('/success')
+})
+```
+

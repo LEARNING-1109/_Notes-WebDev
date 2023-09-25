@@ -76,3 +76,64 @@ app.post('/api/v1/register', (req, res) => {
 })
 ```
 
+# 3. Response in Express to DOM
+
+```js
+res.end('Hello World');
+
+res.send("<h1>Data Sent to Backend successfully.</h1>");
+res.sendFile(path.join(__dirname + '/contact-us.html'))
+
+res.statusCode = 200;
+res.status(400).send("message- HTML Message wit Status code in console");  
+res.setHeader('Content-Type', 'text/plain');
+
+res.render("success!")
+
+res.redirect("/about");
+
+res.json({
+    success: true,
+    name: userName,
+    email: userEmail,
+    password: userPassword
+})
+```
+
+# 4. <%= EJS %> Embedded JavaScript templating.
+
+## Installation
+
+```js
+npm i ejs
+```
+
+### Create Folder Structure like -
+
+ProjectName/views/index.ejs
+
+- i.e, Must create a `views` named folder.
+
+public/style.css, script.js
+- these public files will be directly served to the index.ejs as it don't need to mention absolute path.
+
+```js
+// 🎯 Setting Up View Engine -------------
+app.set("view engine", "ejs");  // ✨ agar ye enable kr diye to .ejs niche kahi nhi use karna hoga
+app.get('/ejs', (req, res) => {
+    // res.render('index.ejs');
+    // res.render('index');
+
+    // 🎯 passing dynamic variable
+    res.render('index', {name: "Er. Ayush"} )
+} )
+```
+---
+```js
+// (Optional) Serving public folder to server
+app.get('/public', (req, res) => {
+    const pathLocation = path.resolve();
+    console.log(pathLocation);
+    res.sendFile(path.join(pathLocation, '/public/public.html'));    
+})
+```
