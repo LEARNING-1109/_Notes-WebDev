@@ -39,7 +39,7 @@ app.get("/", (req, res) => {
 
 ## 2. POST method 
 
-### importing body-parser
+### importing body-parser i.e, req.body
 `const bodyParser = require('body-parser');`
 
 `app.use(bodyParser.urlencoded({extended: false}));`
