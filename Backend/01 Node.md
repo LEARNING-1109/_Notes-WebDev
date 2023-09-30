@@ -1,3 +1,14 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Complete-BACKEND in One Video- 6PP](#complete-backend-in-one-video--6pp)
+- [0. Handling Errors :](#0-handling-errors-)
+   * [1. import ](#1-import)
+   * [2. Tips for fast exectuion](#2-tips-for-fast-exectuion)
+   * [3. res.sendFile(path.join(`__dirname` + '/about.html'))](#3-ressendfilepathjoin__dirname--abouthtml)
+- [1. How do I start with Node.js after I installed it?](#1-how-do-i-start-with-nodejs-after-i-installed-it)
+
+<!-- TOC end -->
+
 # Complete-BACKEND in One Video- 6PP
 ---
 

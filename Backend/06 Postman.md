@@ -1,3 +1,12 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [1. Get Method ](#1-get-method)
+   * [1.1 Send id through body as json](#11-send-id-through-body-as-json)
+   * [1.2 Send id through params ](#12-send-id-through-params)
+   * [1.3 Get request through params](#13-get-request-through-params)
+
+<!-- TOC end -->
+
 # 1. Get Method 
 
 ## 1.1 Send id through body as json

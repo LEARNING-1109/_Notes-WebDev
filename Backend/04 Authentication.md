@@ -1,3 +1,24 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Authentication in Express using jwt and cookie :](#authentication-in-express-using-jwt-and-cookie-)
+- [1. Required module Installation](#1-required-module-installation)
+   * [1.2 setting up & using Middle wares](#12-setting-up--using-middle-wares)
+      + [Using Middlewares](#using-middlewares)
+   * [1.3 Connecting to Database](#13-connecting-to-database)
+   * [1.4 ejs](#14-ejs)
+      + [🎯 Setting Up View Engine](#-setting-up-view-engine)
+- [2.](#2)
+   * [2.1 lengthy method (❌ don't use this)](#21-lengthy-method--dont-use-this)
+   * [2.1 Shorthand method- using our custom middleware](#21-shorthand-method--using-our-custom-middleware)
+- [3. if logged in then- `POST data to the backend`](#3-if-logged-in-then--post-data-to-the-backend)
+   * [3.1 dummy data](#31-dummy-data)
+   * [3.2 saving real time dom data](#32-saving-real-time-dom-data)
+- [4. Handling dynamic data in `ejs html file`](#4-handling-dynamic-data-in-ejs-html-file)
+- [5. on clicking `Logout`](#5-on-clicking-logout)
+- [6. Ending](#6-ending)
+
+<!-- TOC end -->
+
 # Authentication in Express using jwt and cookie :
 
 --

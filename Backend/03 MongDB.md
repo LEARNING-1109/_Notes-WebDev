@@ -1,3 +1,15 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [1. Installation](#1-installation)
+   * [1. Installing mongoose](#1-installing-mongoose)
+   * [2. Connect to Databse](#2-connect-to-databse)
+- [3. Add data to backend](#3-add-data-to-backend)
+   * [Creating Message Schema](#creating-message-schema)
+   * [Add data using GET method](#add-data-using-get-method)
+   * [Add data using post method](#add-data-using-post-method)
+
+<!-- TOC end -->
+
 
 # 1. Installation
 

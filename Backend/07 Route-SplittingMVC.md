@@ -1,3 +1,19 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Route Splitting MVC](#route-splitting-mvc)
+   * [What is the MVC?](#what-is-the-mvc)
+- [0. Folder Structure](#0-folder-structure)
+   * [Require module Installation](#require-module-installation)
+- [1. 📜 app.js](#1--appjs)
+- [2. 📜 server.js](#2--serverjs)
+- [3. 📂 models > 📜 user.js](#3--models---userjs)
+- [4. 📂 data > 📜 database.js](#4--data---databasejs)
+- [5. config.env](#5-configenv)
+- [6. 📂routes > 📜 user.js   - For Routing](#6-routes---userjs-----for-routing)
+- [7. 📂 controllers > 📜 user.js](#7--controllers---userjs)
+
+<!-- TOC end -->
+
 # Route Splitting MVC
 
 `Routing refers to how an application’s endpoints (URIs) respond to client requests.`
@@ -30,7 +46,8 @@ Each one of these components is built to handle specific development aspects of 
 - user.js
 
 `package.json`
-- ```js{
+- 
+```js{
         "name": "05-route-splittingmvc",
 
         "main": "server.js",
@@ -46,7 +63,7 @@ Each one of these components is built to handle specific development aspects of 
             "mongoose": "^7.5.3"
         }
         }
-    ```
+```
 
 ## Require module Installation
 

@@ -1,3 +1,18 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [1. Installation ](#1-installation)
+   * [GET method route](#get-method-route)
+      + [importing path](#importing-path)
+   * [2. POST method ](#2-post-method)
+      + [importing body-parser i.e, req.body](#importing-body-parser-ie-reqbody)
+   * [Post request from thunder client](#post-request-from-thunder-client)
+- [3. Response in Express to DOM](#3-response-in-express-to-dom)
+- [4. <%= EJS %> Embedded JavaScript templating.](#4--embedded-javascript-templating)
+   * [Installation](#installation)
+      + [Create Folder Structure like -](#create-folder-structure-like--)
+
+<!-- TOC end -->
+
 # 1. Installation 
 
 ```js
