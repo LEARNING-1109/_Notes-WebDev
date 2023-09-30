@@ -6,7 +6,7 @@
    * [Require module Installation](#require-module-installation)
 - [1. 📜 app.js ⭐⭐](#1--appjs-)
 - [2. 📜 server.js ⭐⭐](#2--serverjs-)
-- [3. 📂 models > 📜 user.js](#3--models---userjs)
+- [3. 📂 models > 📜 user.js ⭐⭐](#3--models---userjs-)
 - [4. 📂 data > 📜 database.js ⭐⭐](#4--data---databasejs-)
 - [5. config.env ⭐⭐](#5-configenv-)
 - [6. 📂routes > 📜 user.js   - For Routing](#6-routes---userjs-----for-routing)
@@ -114,7 +114,7 @@ app.listen(process.env.PORT, () => {
 })
 ```
 
-# 3. 📂 models > 📜 user.js
+# 3. 📂 models > 📜 user.js ⭐⭐
 Database structure
 
 ```js
