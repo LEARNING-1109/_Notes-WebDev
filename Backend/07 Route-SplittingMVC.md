@@ -10,3 +10,31 @@ Each one of these components is built to handle specific development aspects of 
 
 ![MVC](https://miro.medium.com/v2/resize:fit:720/format:webp/0*TgEUas3y7zXZHgeR.png)
 
+# 1. app.js
+
+```js
+npm i express dotenv
+```
+
+```js
+import express from 'express';
+import userRouter from './routes/user.js'
+import { config } from 'dotenv';
+
+export const app = express();
+
+config({
+    path: "./data/config.env"
+})
+
+// Using Middleware 
+app.use(express.json()); // receiving json response from POSTMAN
+
+// app.use(userRouter);
+app.use("/users", userRouter);    // adding prefix url prameter
+
+// Home Page -----------
+app.get('/', (req, res) => {
+    res.send("Nice Working");
+})
+```
