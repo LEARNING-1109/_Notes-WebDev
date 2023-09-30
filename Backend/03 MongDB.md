@@ -19,6 +19,15 @@ import mongoose from 'mongoose';
     dbName: "backend",
 })
 ```
+`or`
+```js
+    // ❌ mongoose.connect("mongodb://localhost:27017", {
+    mongoose.connect("mongodb://127.0.0.1:27017", {
+    dbName: "backend",
+}).then(() => {
+    console.log("Database Connected");
+}).catch((e) => console.log(e))
+```
 - How find the correct connection URI link
 - Open your project folder directory.
 - type `cmd` in directory path
