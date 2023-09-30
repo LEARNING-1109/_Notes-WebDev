@@ -12,7 +12,7 @@ Each one of these components is built to handle specific development aspects of 
 
 # 1. app.js
 
-```js
+```css
 npm i express dotenv
 ```
 
