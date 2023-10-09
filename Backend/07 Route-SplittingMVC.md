@@ -86,7 +86,7 @@ config({
 })
 
 // Using Middleware 
-app.use(express.json()); // receiving json response from POSTMAN
+app.use(express.json()); // receiving json response from POSTMAN or for parsing application/json
 
 // app.use(userRouter);
 app.use("/users", userRouter);    // adding prefix url prameter
