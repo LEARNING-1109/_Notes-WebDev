@@ -3,10 +3,13 @@
 ### See Sample Here
 [https://github.com/saurabhnative/create-frontend-readme](https://github.com/saurabhnative/create-frontend-readme)
 
-
 # 2 Add awersome badges
 
 [https://dev.to/envoy_/150-badges-for-github-pnk](https://dev.to/envoy_/150-badges-for-github-pnk)
+
+[https://github.com/Ileriayo/markdown-badges#table-of-contents](https://github.com/Ileriayo/markdown-badges#table-of-contents)
+
+[MAKE CUSTOM BADGES - https://javascript.plainenglish.io/how-to-make-custom-language-badges-for-your-profile-using-shields-io-d2aeaf016b6b](https://javascript.plainenglish.io/how-to-make-custom-language-badges-for-your-profile-using-shields-io-d2aeaf016b6b)
 
 Using `Ctrl+F`, find your respective badges
 
@@ -25,6 +28,22 @@ This project needs a ⭐️ from you. Don't forget to leave a star
 If you found the app helpful.⭐️,
 ```
 
+# 11. 🔗 Add link to Connect with me 
+
+## 🌐 Socials: (Connect with me)
+```html
+<div align='right' > 
+<p>🌐 Socials: (Connect with me) 👇 </p>
+
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&style='') [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/krayush1109)
+</div>
+```
+Output:
+<div align='right' > 
+<p>🌐 Socials: (Connect with me) 👇 </p>
+
+![GitHub](https://img.shields.io/badge/github%20Profile-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&style='') [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/krayush1109) [![Linktree](https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white&style)](https://linktr.ee/krayush1109)
+</div>
 
 # 6. 🛠️ Installation Setup
 
@@ -61,3 +80,5 @@ yarn build
 ```
 yarn start
 ```
+
+
