@@ -51,17 +51,23 @@ Output:
 
 <p>1. Clone the repository</p>
 
+`Clone the repository`
+
 ```
 git clone repo_url
 ```
 
 <p>2. Install npm modules</p>
 
+`Install npm modules`
+
 ```
 npm install
 ```
 
 <p>3. Start development server using below command</p>
+
+`Start development server using below command`
 
 ```
 npm dev
@@ -71,14 +77,18 @@ npm dev
 
 <p>4. Create production build using below command</p>
 
+`Create production build using below command`
+
 ```
-yarn build
+npm build
 ```
 
 <p>5. Check production build locally using below command</p>
 
+`Check production build locally using below command`
+
 ```
-yarn start
+npm start
 ```
 
 
