@@ -1,3 +1,6 @@
+Tailwidnd - a utility classes
+chakra ui - Component Library
+
 # 0. Shortcut Installation
 
 - `Extract Here` the `MY_TEMPLATE` zip file
@@ -53,6 +56,21 @@ npx tailwindcss init -p
 
 ```css
 "*"
+```
+
+🎯 or
+
+```js
+FileName: tailwind.config.js
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
 ```
 
 ## 🪜 Step 6: In `package.json` file
